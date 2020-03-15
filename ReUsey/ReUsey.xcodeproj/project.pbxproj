@@ -9,19 +9,19 @@
 /* Begin PBXBuildFile section */
 		855D6EC2241DDA9600ED10D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855D6EC1241DDA9600ED10D7 /* AppDelegate.swift */; };
 		855D6EC4241DDA9600ED10D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855D6EC3241DDA9600ED10D7 /* SceneDelegate.swift */; };
-		855D6EC6241DDA9600ED10D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855D6EC5241DDA9600ED10D7 /* ViewController.swift */; };
 		855D6EC9241DDA9600ED10D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 855D6EC7241DDA9600ED10D7 /* Main.storyboard */; };
 		855D6ECC241DDA9600ED10D7 /* ReUsey.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 855D6ECA241DDA9600ED10D7 /* ReUsey.xcdatamodeld */; };
 		855D6ECE241DDA9B00ED10D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 855D6ECD241DDA9B00ED10D7 /* Assets.xcassets */; };
 		855D6ED1241DDA9B00ED10D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 855D6ECF241DDA9B00ED10D7 /* LaunchScreen.storyboard */; };
 		855D6EDB241DDAEC00ED10D7 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 855D6EDA241DDAEC00ED10D7 /* CloudKit.framework */; };
+		855D6EE1241DE34800ED10D7 /* CategoryTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855D6EE0241DE34800ED10D7 /* CategoryTVC.swift */; };
+		855D6EE4241DE8E900ED10D7 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855D6EE3241DE8E900ED10D7 /* CategoryCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		855D6EBE241DDA9600ED10D7 /* ReUsey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReUsey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		855D6EC1241DDA9600ED10D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		855D6EC3241DDA9600ED10D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		855D6EC5241DDA9600ED10D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		855D6EC8241DDA9600ED10D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		855D6ECB241DDA9600ED10D7 /* ReUsey.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReUsey.xcdatamodel; sourceTree = "<group>"; };
 		855D6ECD241DDA9B00ED10D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -29,6 +29,8 @@
 		855D6ED2241DDA9B00ED10D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		855D6ED8241DDAD800ED10D7 /* ReUsey.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReUsey.entitlements; sourceTree = "<group>"; };
 		855D6EDA241DDAEC00ED10D7 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		855D6EE0241DE34800ED10D7 /* CategoryTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTVC.swift; sourceTree = "<group>"; };
+		855D6EE3241DE8E900ED10D7 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,12 +68,11 @@
 				855D6ED8241DDAD800ED10D7 /* ReUsey.entitlements */,
 				855D6EC1241DDA9600ED10D7 /* AppDelegate.swift */,
 				855D6EC3241DDA9600ED10D7 /* SceneDelegate.swift */,
-				855D6EC5241DDA9600ED10D7 /* ViewController.swift */,
-				855D6EC7241DDA9600ED10D7 /* Main.storyboard */,
-				855D6ECD241DDA9B00ED10D7 /* Assets.xcassets */,
-				855D6ECF241DDA9B00ED10D7 /* LaunchScreen.storyboard */,
 				855D6ED2241DDA9B00ED10D7 /* Info.plist */,
-				855D6ECA241DDA9600ED10D7 /* ReUsey.xcdatamodeld */,
+				855D6EDC241DDFC300ED10D7 /* Data */,
+				855D6EDD241DDFEC00ED10D7 /* Resources */,
+				855D6EE2241DE8BE00ED10D7 /* Views */,
+				855D6EDF241DE0F300ED10D7 /* View Controllers */,
 			);
 			path = ReUsey;
 			sourceTree = "<group>";
@@ -82,6 +83,40 @@
 				855D6EDA241DDAEC00ED10D7 /* CloudKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		855D6EDC241DDFC300ED10D7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				855D6ECA241DDA9600ED10D7 /* ReUsey.xcdatamodeld */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		855D6EDD241DDFEC00ED10D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				855D6EC7241DDA9600ED10D7 /* Main.storyboard */,
+				855D6ECD241DDA9B00ED10D7 /* Assets.xcassets */,
+				855D6ECF241DDA9B00ED10D7 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		855D6EDF241DE0F300ED10D7 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				855D6EE0241DE34800ED10D7 /* CategoryTVC.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		855D6EE2241DE8BE00ED10D7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				855D6EE3241DE8E900ED10D7 /* CategoryCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,9 +191,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				855D6ECC241DDA9600ED10D7 /* ReUsey.xcdatamodeld in Sources */,
-				855D6EC6241DDA9600ED10D7 /* ViewController.swift in Sources */,
 				855D6EC2241DDA9600ED10D7 /* AppDelegate.swift in Sources */,
 				855D6EC4241DDA9600ED10D7 /* SceneDelegate.swift in Sources */,
+				855D6EE1241DE34800ED10D7 /* CategoryTVC.swift in Sources */,
+				855D6EE4241DE8E900ED10D7 /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
