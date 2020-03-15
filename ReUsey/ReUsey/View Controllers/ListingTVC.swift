@@ -9,38 +9,36 @@
 import UIKit
 
 class ListingTVC: UITableViewController {
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
 
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
 
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return 10
     }
 
-    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell: ListingCell = (tableView.dequeueReusableCell(withIdentifier: "listingCell", for: indexPath) as? ListingCell)!
 
-        // Configure the cell...
+        cell.listingTitleLabel.text = "NWT T-shirt, never worn, unisex"
+        cell.locationLabel.text = "Centerville"
+        cell.listingDescriptionTextView.text = "Made in the interiors of collapsing stars Tunguska event Apollonius of Perga globular star cluster extraordinary claims require extraordinary evidence culture. Paroxysm of global death are creatures of the cosmos gathered by gravity two ghostly white figures in coveralls and helmets are soflty dancing vastness is bearable only through love gathered by gravity."
 
         return cell
     }
-    */
 
     /*
     // Override to support conditional editing of the table view.
