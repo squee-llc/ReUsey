@@ -16,6 +16,8 @@
 		855D6EDB241DDAEC00ED10D7 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 855D6EDA241DDAEC00ED10D7 /* CloudKit.framework */; };
 		855D6EE1241DE34800ED10D7 /* CategoryTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855D6EE0241DE34800ED10D7 /* CategoryTVC.swift */; };
 		855D6EE4241DE8E900ED10D7 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855D6EE3241DE8E900ED10D7 /* CategoryCell.swift */; };
+		856D2891241EB07E00596E09 /* ListingTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856D2890241EB07E00596E09 /* ListingTVC.swift */; };
+		856D2893241EC8A200596E09 /* ListingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856D2892241EC8A200596E09 /* ListingCell.swift */; };
 		85B29E2E241E2AC800371D49 /* AddListingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B29E2D241E2AC800371D49 /* AddListingVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +34,8 @@
 		855D6EDA241DDAEC00ED10D7 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		855D6EE0241DE34800ED10D7 /* CategoryTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTVC.swift; sourceTree = "<group>"; };
 		855D6EE3241DE8E900ED10D7 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		856D2890241EB07E00596E09 /* ListingTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingTVC.swift; sourceTree = "<group>"; };
+		856D2892241EC8A200596E09 /* ListingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingCell.swift; sourceTree = "<group>"; };
 		85B29E2D241E2AC800371D49 /* AddListingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddListingVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +114,7 @@
 			children = (
 				855D6EE0241DE34800ED10D7 /* CategoryTVC.swift */,
 				85B29E2D241E2AC800371D49 /* AddListingVC.swift */,
+				856D2890241EB07E00596E09 /* ListingTVC.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				855D6EE3241DE8E900ED10D7 /* CategoryCell.swift */,
+				856D2892241EC8A200596E09 /* ListingCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -195,9 +201,11 @@
 			files = (
 				855D6ECC241DDA9600ED10D7 /* ReUsey.xcdatamodeld in Sources */,
 				855D6EC2241DDA9600ED10D7 /* AppDelegate.swift in Sources */,
+				856D2891241EB07E00596E09 /* ListingTVC.swift in Sources */,
 				855D6EC4241DDA9600ED10D7 /* SceneDelegate.swift in Sources */,
 				85B29E2E241E2AC800371D49 /* AddListingVC.swift in Sources */,
 				855D6EE1241DE34800ED10D7 /* CategoryTVC.swift in Sources */,
+				856D2893241EC8A200596E09 /* ListingCell.swift in Sources */,
 				855D6EE4241DE8E900ED10D7 /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
